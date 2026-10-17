@@ -1,0 +1,11 @@
+numpy==2.2.6
+pandas==2.2.3
+scipy==1.15.3
+scikit-learn==1.6.1
+lime==0.2.0.1
+shap==0.48.0
+matplotlib==3.10.3
+joblib==1.5.1
+PyYAML==6.0.2
+psutil==7.0.0
+threadpoolctl==3.6.0

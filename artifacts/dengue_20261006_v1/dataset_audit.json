@@ -1,0 +1,81 @@
+{
+  "source_url": "https://raw.githubusercontent.com/joehuang1980/DVpatient/7db6fb55f7b73a6586dad7c2f7c1ed706914b5f7/dengue%20data-Final.csv",
+  "sha256": "07df6c01bce668b1b68e4be2e4f6266aedb545740280293ec96624e91177627e",
+  "retrieved_date": "2026-10-06",
+  "n_rows": 798,
+  "columns": [
+    "Severity",
+    "sex",
+    "age",
+    "RNA",
+    "NS1",
+    "IgM",
+    "IgG"
+  ],
+  "dtypes": {
+    "Severity": "int64",
+    "sex": "int64",
+    "age": "int64",
+    "RNA": "int64",
+    "NS1": "int64",
+    "IgM": "int64",
+    "IgG": "int64"
+  },
+  "missing": {
+    "Severity": 0,
+    "sex": 0,
+    "age": 0,
+    "RNA": 0,
+    "NS1": 0,
+    "IgM": 0,
+    "IgG": 0
+  },
+  "classes": {
+    "0": 660,
+    "1": 138
+  },
+  "age_min": 1,
+  "age_max": 97,
+  "row_id_origin": "0-based original CSV row position; not patient ID",
+  "profile_overlap": {
+    "train_validation": 70,
+    "train_test": 72,
+    "validation_test": 28
+  },
+  "test_rows_whose_profile_is_seen_in_train": 96,
+  "background_summaries": {
+    "201": {
+      "n": 20,
+      "severe": 3,
+      "age_mean": 57.6,
+      "binary_frequencies": {
+        "sex": 0.7,
+        "NS1": 0.8,
+        "IgM": 0.4,
+        "IgG": 0.3
+      }
+    },
+    "202": {
+      "n": 20,
+      "severe": 3,
+      "age_mean": 43.05,
+      "binary_frequencies": {
+        "sex": 0.55,
+        "NS1": 0.75,
+        "IgM": 0.2,
+        "IgG": 0.2
+      }
+    },
+    "203": {
+      "n": 20,
+      "severe": 3,
+      "age_mean": 59.7,
+      "binary_frequencies": {
+        "sex": 0.75,
+        "NS1": 0.75,
+        "IgM": 0.2,
+        "IgG": 0.3
+      }
+    }
+  }
+}

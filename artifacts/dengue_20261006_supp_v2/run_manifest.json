@@ -1,0 +1,128 @@
+{
+  "run_id": "dengue_20261006_supp_v2",
+  "started_at": "2026-10-06T11:41:55.710975+07:00",
+  "timezone": "UTC+07:00",
+  "config_sha256": "9e9e1b8f3f503c33fbc1bcda2ea3e431aaeb27f0563c7000f043ce824977cb90",
+  "stages": {
+    "S1_locked": {
+      "status": "complete",
+      "timestamp": "2026-10-06T11:41:55.961265+07:00",
+      "details": {
+        "validation_ids": [
+          287,
+          369,
+          401,
+          492,
+          494,
+          519,
+          545,
+          639,
+          707,
+          754
+        ],
+        "after_v1_test": true
+      }
+    },
+    "S2_S3_LIME": {
+      "status": "complete",
+      "timestamp": "2026-10-06T11:42:16.968726+07:00",
+      "details": {
+        "fits": 120,
+        "validation_cases": 10,
+        "independent_eval_per_fit": 5000,
+        "official_api_checks": 60
+      }
+    },
+    "S3_age_probe": {
+      "status": "complete",
+      "timestamp": "2026-10-06T11:42:17.128321+07:00",
+      "details": {
+        "validation_cases": 10,
+        "explicit_posthoc_test_row": 97
+      }
+    },
+    "S4_SHAP": {
+      "status": "complete",
+      "timestamp": "2026-10-06T11:42:21.688777+07:00",
+      "details": {
+        "explanations": 110,
+        "exact_checks": 6,
+        "validation_cases": 10,
+        "full_train_is_empirical_reference": true
+      }
+    },
+    "S5_sign_flips": {
+      "status": "complete",
+      "timestamp": "2026-10-06T11:42:21.786106+07:00",
+      "details": {
+        "uses_saved_v1_test_cache": true,
+        "new_test_fits": 0
+      }
+    },
+    "verification": {
+      "status": "complete",
+      "timestamp": "2026-10-06T11:42:22.118739+07:00",
+      "details": {
+        "passed": true,
+        "verified_at": "2026-10-06T11:42:22.114373+07:00",
+        "protected_v1_files": 383,
+        "v1_unchanged": true,
+        "validation_only_ablation": true,
+        "shared_width_perturbations": true,
+        "independent_evaluation_seeds": true,
+        "same_common_raw_evaluation_domains": true,
+        "lime_fits": 120,
+        "official_api_checks": 60,
+        "official_api_max_error": 4.996003610813204e-16,
+        "fresh_rerun_max_coefficient_error": {
+          "quartile": 0.0,
+          "continuous": 0.0
+        },
+        "shap_explanations": 110,
+        "shap_exact_max_error": 7.693498615957139e-16,
+        "explicit_posthoc_test_probe": 97
+      }
+    },
+    "report": {
+      "status": "complete",
+      "timestamp": "2026-10-06T11:57:03.010094+07:00",
+      "details": {
+        "path": "bao-cao-bo-sung-lime-shap-dengue-v2.md",
+        "figures": [
+          "F5",
+          "F6",
+          "F7"
+        ]
+      }
+    },
+    "final_report": {
+      "status": "complete",
+      "timestamp": "2026-10-06T11:57:03.034331+07:00",
+      "details": {
+        "path": "bao-cao-tong-hop-lime-shap-dengue.md",
+        "v1_source_unchanged": true,
+        "v2_is_post_test": true,
+        "same_relative_artifact_links": true
+      }
+    }
+  },
+  "status": "complete",
+  "implementation_sha256": {
+    "src/common.py": "95e4cf2c16d36fe51c958d83611d0e6d2ac9fbae5d198f9eaeb6c40711236829",
+    "src/evaluate.py": "610276850e964f0d15aa1dcd2f746cc3dd70916e2a29152a4e882b9b42e5c208",
+    "src/exact_shapley.py": "1176f2aa52c7ffb8f8e42ef9d989b3012c6d916a26e4852cc2cda9aaef4ccea9",
+    "src/explain.py": "a0f4f2bc727bfe34e1d84a8b336b567eea2c1af67afbf062b5c83d456f2f1eeb",
+    "src/final_report.py": "6a2d44e4ad31cce64575e35b891ee368e59420659e3d63121a9d07b55011f77d",
+    "src/marker_benchmark.py": "40da8ca5da661ab95afba9f192da4af602c0570a047128ebb8fc68e1259ebe3d",
+    "src/prepare_data.py": "c4d1df172d949e5132ee8c126aabcbae83677cabe039f2a53959f7361bc83881",
+    "src/reporting.py": "a8c37b6db43d6117f3abd03bb357484b2f209a3a8e740d67e4a7d99a5f0bb92f",
+    "src/run_experiments.py": "dab5a04d60ef1de8030763a78c950484099a4626fbdaae3d2be9cfd2da82e250",
+    "src/run_supplementary.py": "5fdd3c449bc5da8b445d0bd42169c72bc9105d4e643dc88af7a99654f7434368",
+    "src/supplementary_lime.py": "b3f680e1128f9cbd913d29d33e18759f15326387035757647be953855a436802",
+    "src/supplementary_report.py": "8bdc1df500366fdcce7c5c09da2d0b6d3ad5ac9507333c1ee20a8702f936e78a",
+    "src/train.py": "ac712fde9d5054ab7e767fb4f87640e1fcb94e67a5d177d4938d833ec784b13e",
+    "src/verify.py": "295c6467db5ceb8a5c7f23b5829c9fef474aa776bc606ddf1f0ad8dd8400f9f6",
+    "src/__init__.py": "0578dd86784d09351bb09421de247563feeaa6b0cf67c68a166cd2c6a9db9e1d"
+  },
+  "updated_at": "2026-10-06T11:57:03.052347+07:00"
+}

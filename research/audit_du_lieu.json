@@ -1,0 +1,101 @@
+{
+  "file": "nguon\\dengue_data_Final.csv",
+  "sha256": "07df6c01bce668b1b68e4be2e4f6266aedb545740280293ec96624e91177627e",
+  "rows": 798,
+  "columns": [
+    "Severity",
+    "sex",
+    "age",
+    "RNA",
+    "NS1",
+    "IgM",
+    "IgG"
+  ],
+  "missing": {
+    "Severity": 0,
+    "sex": 0,
+    "age": 0,
+    "RNA": 0,
+    "NS1": 0,
+    "IgM": 0,
+    "IgG": 0
+  },
+  "counts": {
+    "Severity": {
+      "0": 660,
+      "1": 138
+    },
+    "sex": {
+      "0": 380,
+      "1": 418
+    },
+    "NS1": {
+      "1": 622,
+      "0": 176
+    },
+    "IgM": {
+      "0": 601,
+      "1": 197
+    },
+    "IgG": {
+      "0": 600,
+      "1": 198
+    }
+  },
+  "severe_prevalence": 0.17293233082706766,
+  "majority_accuracy": 0.8270676691729324,
+  "age": {
+    "min": 1.0,
+    "max": 97.0,
+    "mean": 55.80451127819549,
+    "median": 60.0,
+    "unique": 90
+  },
+  "duplicate_full_rows_excess": 19,
+  "duplicate_full_row_groups": 17,
+  "unique_five_feature_profiles": 433,
+  "repeated_five_feature_groups": 171,
+  "five_feature_profiles_with_both_labels": 53,
+  "rows_in_conflicting_profiles": 222,
+  "spearman_features": {
+    "age": {
+      "age": 1.0,
+      "sex": 0.0008006801861345575,
+      "NS1": -0.047429482312767356,
+      "IgM": 0.0485214921730315,
+      "IgG": 0.31946140507268195
+    },
+    "sex": {
+      "age": 0.0008006801861345575,
+      "sex": 1.0,
+      "NS1": -0.05936347991150034,
+      "IgM": -0.0011083917885183312,
+      "IgG": -0.009958591954639384
+    },
+    "NS1": {
+      "age": -0.047429482312767356,
+      "sex": -0.05936347991150034,
+      "NS1": 1.0,
+      "IgM": -0.2351751251001284,
+      "IgG": -0.2192375823685051
+    },
+    "IgM": {
+      "age": 0.0485214921730315,
+      "sex": -0.0011083917885183312,
+      "NS1": -0.2351751251001284,
+      "IgM": 1.0,
+      "IgG": 0.35742493524233526
+    },
+    "IgG": {
+      "age": 0.31946140507268195,
+      "sex": -0.009958591954639384,
+      "NS1": -0.2192375823685051,
+      "IgM": 0.35742493524233526,
+      "IgG": 1.0
+    }
+  },
+  "notes": [
+    "Identical profiles do not establish repeated patients; no patient ID is released.",
+    "Correlations are descriptive, not causal or clinical validation."
+  ]
+}

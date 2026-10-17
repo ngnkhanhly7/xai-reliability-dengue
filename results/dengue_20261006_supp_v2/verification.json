@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "verified_at": "2026-10-06T11:42:22.114373+07:00",
+  "protected_v1_files": 383,
+  "v1_unchanged": true,
+  "validation_only_ablation": true,
+  "shared_width_perturbations": true,
+  "independent_evaluation_seeds": true,
+  "same_common_raw_evaluation_domains": true,
+  "lime_fits": 120,
+  "official_api_checks": 60,
+  "official_api_max_error": 4.996003610813204e-16,
+  "fresh_rerun_max_coefficient_error": {
+    "quartile": 0.0,
+    "continuous": 0.0
+  },
+  "shap_explanations": 110,
+  "shap_exact_max_error": 7.693498615957139e-16,
+  "explicit_posthoc_test_probe": 97
+}

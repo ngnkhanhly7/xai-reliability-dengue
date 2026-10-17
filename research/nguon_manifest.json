@@ -1,0 +1,93 @@
+{
+  "client_research_date": "2026-10-06",
+  "retrieved_utc": "2026-10-06T03:14:44.424275+00:00",
+  "github_commits": {
+    "joehuang1980/DVpatient": "7db6fb55f7b73a6586dad7c2f7c1ed706914b5f7",
+    "marcotcr/lime": "fd7eb2e6f760619c29fca0187c07b82157601b32",
+    "shap/shap": "50be8f4fd7031d535d515042741320f53272d211"
+  },
+  "sources": [
+    {
+      "file": "P1_huang_2020.html",
+      "url": "https://journals.plos.org/plosntds/article?id=10.1371/journal.pntd.0008960",
+      "bytes": 260123,
+      "sha256": "bde2a5de443c073c90a230fa0ff0df2d4d62d7cbcc3dadb5f3d00d8d7ac732dc"
+    },
+    {
+      "file": "P2_lime_2016.html",
+      "url": "https://arxiv.org/html/1602.04938",
+      "bytes": 215373,
+      "sha256": "cf1679a0bbb520057f7dbaf38301d92df85b2cc30c45fe70562a4254b9b28845"
+    },
+    {
+      "file": "P3_shap_2017.html",
+      "url": "https://arxiv.org/html/1705.07874",
+      "bytes": 164046,
+      "sha256": "4787f732a3d8b0eb7c782f8f5029c813eb42fa210236c78b3e5b749ff5fd903e"
+    },
+    {
+      "file": "P4_aas.html",
+      "url": "https://arxiv.org/html/1903.10464",
+      "bytes": 456647,
+      "sha256": "7ecb1746fe6a531158f2877b81a9d1a5acfeaa8fbea45bd76128b118be677e74"
+    },
+    {
+      "file": "P5_adebayo_2022.html",
+      "url": "https://arxiv.org/html/2212.04629",
+      "bytes": 262755,
+      "sha256": "285fb80bc29ce5dce7a0414efd1904ada3276cccb451143cd25f3aa69cdfb9e0"
+    },
+    {
+      "file": "P5_iclr_2022.pdf",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "file": "lime_api.html",
+      "url": "https://lime-ml.readthedocs.io/en/latest/lime.html",
+      "bytes": 85652,
+      "sha256": "a76fff811121c27732637e2228f75f4ee82e261355ce4097dd3cbc2a111ba3fa"
+    },
+    {
+      "file": "shap_kernel_api.html",
+      "url": "https://shap.readthedocs.io/en/latest/generated/shap.KernelExplainer.html",
+      "bytes": 45925,
+      "sha256": "46d06df13b95af4697588c31b70af7c3ac0ec4e367cfebf4c0c3161686e556f9"
+    },
+    {
+      "file": "dengue_data_Final.csv",
+      "url": "https://raw.githubusercontent.com/joehuang1980/DVpatient/7db6fb55f7b73a6586dad7c2f7c1ed706914b5f7/dengue%20data-Final.csv",
+      "bytes": 15150,
+      "sha256": "07df6c01bce668b1b68e4be2e4f6266aedb545740280293ec96624e91177627e"
+    },
+    {
+      "file": "DV_verification.ipynb",
+      "url": "https://raw.githubusercontent.com/joehuang1980/DVpatient/7db6fb55f7b73a6586dad7c2f7c1ed706914b5f7/DV%20severity%20models_verification-20200720.ipynb",
+      "bytes": 1231406,
+      "sha256": "b9a4484459d75a8c9f576ffce5e8aee771cf2ea2ea0f6860b2f5a1b6e325a79c"
+    },
+    {
+      "file": "lime_tabular.py",
+      "url": "https://raw.githubusercontent.com/marcotcr/lime/fd7eb2e6f760619c29fca0187c07b82157601b32/lime/lime_tabular.py",
+      "bytes": 34542,
+      "sha256": "60dc96c70fa448df9a38f0bb857b7f9624527474d05f16beefb56d35c605afa8"
+    },
+    {
+      "file": "lime_base.py",
+      "url": "https://raw.githubusercontent.com/marcotcr/lime/fd7eb2e6f760619c29fca0187c07b82157601b32/lime/lime_base.py",
+      "bytes": 9880,
+      "sha256": "2387f09404982d6bdccb23007f2d78c384c2b79e4a39fffb27b4748058121a63"
+    },
+    {
+      "file": "lime_discretize.py",
+      "url": "https://raw.githubusercontent.com/marcotcr/lime/fd7eb2e6f760619c29fca0187c07b82157601b32/lime/discretize.py",
+      "bytes": 8978,
+      "sha256": "496df9b96561ea22c73cff84e76f9e9f115f437783cf731174dfc2061d2963e1"
+    },
+    {
+      "file": "shap_kernel.py",
+      "url": "https://raw.githubusercontent.com/shap/shap/50be8f4fd7031d535d515042741320f53272d211/shap/explainers/_kernel.py",
+      "bytes": 38430,
+      "sha256": "984300f3d95e05320ec98d554f872e7a51a3d2cfbb6915f2c9590c4a6a615036"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "run_id": "dengue_20261006_v1",
+  "context": "marker",
+  "model_id": "R",
+  "explainer": "LIME",
+  "row_id": 97,
+  "split": "test",
+  "seed": 301,
+  "budget_requested": 2000,
+  "background_id": "marker_balanced_pool",
+  "timestamp": "2026-10-06T10:47:47.056236+07:00",
+  "feature_names": [
+    "age",
+    "sex",
+    "NS1",
+    "IgM",
+    "IgG",
+    "marker"
+  ],
+  "input": [
+    71.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ],
+  "attributions": [
+    0.06397588185747977,
+    0.0025739614761485802,
+    0.1269908404379231,
+    -0.008488753164158654,
+    0.012486810814358143,
+    -0.03968540910154586
+  ],
+  "conditions": [
+    "59.50 < age <= 74.00",
+    "sex=male",
+    "NS1=positive",
+    "IgM=positive",
+    "IgG=positive",
+    "marker=s=1"
+  ],
+  "intercept": 0.06801404552330755,
+  "baseline": null,
+  "predicted_probability": 0.48999072051001946,
+  "local_pred": 0.22586737784351263,
+  "point_error": 0.26412334266650683,
+  "lime_r2": 0.1649572799397072,
+  "lime_raw_score": 0.1649572799397072,
+  "weighted_rmse": 0.1393176061503373,
+  "effective_n": 1943.3639365234797,
+  "weighted_output_variance": 0.023243595707365828,
+  "additivity_error": null,
+  "runtime_seconds": 0.0221161000081338,
+  "initialization_seconds": 0.0013644999999087304,
+  "call_count": 1,
+  "predicted_row_count": 2000,
+  "initialization_call_count": 0,
+  "initialization_row_count": 0,
+  "warnings": [],
+  "kernel_width": 1.8371173070873834,
+  "age_bins": [
+    "age <= 36.00",
+    "36.00 < age <= 59.50",
+    "59.50 < age <= 74.00",
+    "age > 74.00"
+  ],
+  "surrogate_score_data": "same neighborhood used for fitting"
+}

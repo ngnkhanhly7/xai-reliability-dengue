@@ -1,0 +1,5 @@
+representation,width_factor,n_fits,local_pred_outside_01
+continuous,1.0,30,6
+quartile,0.5,30,7
+quartile,1.0,30,9
+quartile,2.0,30,9

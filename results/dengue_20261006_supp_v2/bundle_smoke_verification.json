@@ -1,0 +1,17 @@
+{
+  "tested_at": "2026-10-06T11:56:55.322293+07:00",
+  "tested_archive_sha256": "40f1b3179f9635caa56e9f03992b3943c938065d1b6d1084e183b2983e7bfd70",
+  "extracted_verify_passed": true,
+  "extracted_report_generated": true,
+  "report_local_links_exist": true,
+  "scientific_summary_csvs_identical": [
+    "lime_summary.csv",
+    "shap_baseline_size_summary.csv",
+    "shap_background_size_summary.csv",
+    "v1_sign_flip_summary.csv",
+    "v1_top2_rank_summary.csv"
+  ],
+  "matching_existing_venv_used": true,
+  "clean_dependency_install_tested": false,
+  "scope": "tested payload before adding this verification record and the consolidated report"
+}

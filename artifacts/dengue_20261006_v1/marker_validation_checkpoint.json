@@ -1,0 +1,56 @@
+{
+  "validated_at": "2026-10-06T10:47:45.566679+07:00",
+  "config": {
+    "enabled": true,
+    "rng_seeds": {
+      "R_train": 501,
+      "R_validation": 502,
+      "B_train": 503,
+      "B_validation": 504,
+      "test_q095": 505,
+      "test_q050": 506,
+      "test_q005": 507,
+      "background": 508
+    },
+    "q_correlated": 0.95,
+    "shap_background_clinical_rows": 10,
+    "shap_budget": 64,
+    "zero_tolerance": 1e-12
+  },
+  "summaries": [
+    {
+      "arm": "C",
+      "n": 160,
+      "mean_signed_delta": 0.0,
+      "mean_abs_delta": 0.0,
+      "median_abs_delta": 0.0,
+      "q25_abs_delta": 0.0,
+      "q75_abs_delta": 0.0,
+      "max_abs_delta": 0.0,
+      "prediction_flip_fraction": 0.0
+    },
+    {
+      "arm": "R",
+      "n": 160,
+      "mean_signed_delta": -0.029699998113569947,
+      "mean_abs_delta": 0.04941059042418454,
+      "median_abs_delta": 0.031828012069079044,
+      "q25_abs_delta": 0.0166688483528297,
+      "q75_abs_delta": 0.06560798037178152,
+      "max_abs_delta": 0.2756551109423448,
+      "prediction_flip_fraction": 0.05
+    },
+    {
+      "arm": "B",
+      "n": 160,
+      "mean_signed_delta": 0.5358597573766187,
+      "mean_abs_delta": 0.5358597573766187,
+      "median_abs_delta": 0.5978260396547463,
+      "q25_abs_delta": 0.36410213355047966,
+      "q75_abs_delta": 0.675960588854913,
+      "max_abs_delta": 0.8110858050324271,
+      "prediction_flip_fraction": 0.58125
+    }
+  ],
+  "no_tuning_after_validation": true
+}

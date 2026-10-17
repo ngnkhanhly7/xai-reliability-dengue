@@ -1,0 +1,152 @@
+{
+  "analysis_date_client": "2026-10-07",
+  "status": "descriptive_summary_after_v3_results",
+  "n_selected_cases": 10,
+  "unique_full_input_profiles": 10,
+  "unique_quartile_contexts": 8,
+  "unique_quartile_raw_evaluation_pools": 3,
+  "unique_gaussian_raw_evaluation_pools": 3,
+  "median_rmse_fraction_reduction_continuous": 0.3117981541410061,
+  "baseline_within_cell_mse_fraction_median": 0.9313615035354036,
+  "baseline_within_cell_mse_fraction_min": 0.7017273350295362,
+  "baseline_within_cell_mse_fraction_max": 0.9653156377771112,
+  "empirical_floor_rmse_median": 0.14301598018919393,
+  "minimum_fit_cell_count": 1,
+  "context_balanced_sensitivity": [
+    {
+      "arm": "continuous_same_samples",
+      "quartile_rmse": 0.10197150651488222,
+      "point_error": 0.08022419788285626
+    },
+    {
+      "arm": "quartile_cell_mean",
+      "quartile_rmse": 0.1413174788070678,
+      "point_error": 0.0126189812652882
+    },
+    {
+      "arm": "quartile_ols",
+      "quartile_rmse": 0.1464492640442837,
+      "point_error": 0.08636607780823674
+    },
+    {
+      "arm": "quartile_pairwise",
+      "quartile_rmse": 0.14246092756026005,
+      "point_error": 0.02652363677326795
+    },
+    {
+      "arm": "quartile_ridge",
+      "quartile_rmse": 0.14645307179884698,
+      "point_error": 0.08645231936300665
+    }
+  ],
+  "point_error_pairs": [
+    {
+      "row_id": 287,
+      "point_error_quartile": 0.0640000671159431,
+      "point_error_continuous": 0.0855126907360521
+    },
+    {
+      "row_id": 369,
+      "point_error_quartile": 0.1147794850508684,
+      "point_error_continuous": 0.0026521294082178
+    },
+    {
+      "row_id": 401,
+      "point_error_quartile": 0.0600549427682089,
+      "point_error_continuous": 0.0962393298683292
+    },
+    {
+      "row_id": 492,
+      "point_error_quartile": 0.0842998894328282,
+      "point_error_continuous": 0.0072806427458304
+    },
+    {
+      "row_id": 494,
+      "point_error_quartile": 0.0366201038952444,
+      "point_error_continuous": 0.0413750554243661
+    },
+    {
+      "row_id": 519,
+      "point_error_quartile": 0.0124267831631478,
+      "point_error_continuous": 0.0541581553686993
+    },
+    {
+      "row_id": 545,
+      "point_error_quartile": 0.1268468324095739,
+      "point_error_continuous": 0.0873563529854202
+    },
+    {
+      "row_id": 639,
+      "point_error_quartile": 0.0886047492931851,
+      "point_error_continuous": 0.1087747517334252
+    },
+    {
+      "row_id": 707,
+      "point_error_quartile": 0.1655309405384676,
+      "point_error_continuous": 0.0957132546906215
+    },
+    {
+      "row_id": 754,
+      "point_error_quartile": 0.1425345100128444,
+      "point_error_continuous": 0.0917561541415329
+    }
+  ],
+  "gaussian_outside_age_fraction_median": 0.0404,
+  "summary": [
+    {
+      "arm": "quartile_ridge",
+      "point_error": 0.0864523193630067,
+      "fit_rmse": 0.147370932059011,
+      "fit_r2": 0.2468117166584224,
+      "quartile_rmse": 0.1486167821323901,
+      "quartile_r2": 0.244447995748481,
+      "gaussian_rmse": 0.1351381990514028,
+      "gaussian_r2": 0.094422428688164,
+      "gaussian_in_range_rmse": 0.1331190973216428
+    },
+    {
+      "arm": "quartile_ols",
+      "point_error": 0.0863660778082368,
+      "fit_rmse": 0.1473705652739117,
+      "fit_r2": 0.2468154065295109,
+      "quartile_rmse": 0.148609090201995,
+      "quartile_r2": 0.2444477456068454,
+      "gaussian_rmse": 0.1352014627791463,
+      "gaussian_r2": 0.0942754841539372,
+      "gaussian_in_range_rmse": 0.1331878416472063
+    },
+    {
+      "arm": "continuous_same_samples",
+      "point_error": 0.0864345218607361,
+      "fit_rmse": 0.103574874664465,
+      "fit_r2": 0.6280750478766653,
+      "quartile_rmse": 0.1022783437891348,
+      "quartile_r2": 0.6304049104465562,
+      "gaussian_rmse": 0.1018299601582893,
+      "gaussian_r2": 0.5935217430902968,
+      "gaussian_in_range_rmse": 0.100378462494923
+    },
+    {
+      "arm": "quartile_pairwise",
+      "point_error": 0.0265236367732679,
+      "fit_rmse": 0.1436193316394988,
+      "fit_r2": 0.2884148071155838,
+      "quartile_rmse": 0.1448960090378882,
+      "quartile_r2": 0.2778254438322118,
+      "gaussian_rmse": 0.1329425176443872,
+      "gaussian_r2": 0.1150425337214476,
+      "gaussian_in_range_rmse": 0.1324938726873112
+    },
+    {
+      "arm": "quartile_cell_mean",
+      "point_error": 0.0197628799794622,
+      "fit_rmse": 0.1419326995670752,
+      "fit_r2": 0.3050268993756193,
+      "quartile_rmse": 0.1436183274250744,
+      "quartile_r2": 0.2897187445281239,
+      "gaussian_rmse": 0.1330099618263875,
+      "gaussian_r2": 0.1264991191426652,
+      "gaussian_in_range_rmse": 0.1325189690822601
+    }
+  ]
+}

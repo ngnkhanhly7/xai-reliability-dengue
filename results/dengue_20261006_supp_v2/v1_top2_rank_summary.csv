@@ -1,0 +1,4 @@
+budget,n_runs,top2_same_as_median
+100,50,44
+500,50,50
+2000,50,50

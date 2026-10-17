@@ -1,0 +1,181 @@
+{
+  "run_id": "dengue_20261006_v1",
+  "context": "main",
+  "model_id": "RF_seed11",
+  "explainer": "KernelSHAP",
+  "row_id": 425,
+  "split": "validation",
+  "seed": 303,
+  "budget_requested": 16,
+  "background_id": "201",
+  "timestamp": "2026-10-06T10:47:44.113691+07:00",
+  "feature_names": [
+    "age",
+    "sex",
+    "NS1",
+    "IgM",
+    "IgG"
+  ],
+  "input": [
+    61.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0
+  ],
+  "attributions": [
+    -0.056518587654635875,
+    -0.004545879032723781,
+    0.021889013915594134,
+    0.004978255941900483,
+    -0.02577608596976881
+  ],
+  "conditions": [
+    "age",
+    "sex",
+    "NS1",
+    "IgM",
+    "IgG"
+  ],
+  "intercept": null,
+  "baseline": 0.1716442798201442,
+  "predicted_probability": 0.11167099702051037,
+  "local_pred": null,
+  "lime_r2": null,
+  "point_error": null,
+  "additivity_error": 0.0,
+  "runtime_seconds": 0.013979999988805503,
+  "initialization_seconds": 0.006964500003959984,
+  "call_count": 2,
+  "predicted_row_count": 321,
+  "initialization_call_count": 1,
+  "initialization_row_count": 20,
+  "background_rows": 20,
+  "effective_features": 5,
+  "effective_feature_ids": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "mask_count": 16,
+  "unique_masks": 16,
+  "full_enumeration": false,
+  "mask_matrix": [
+    [
+      1.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      1.0,
+      1.0,
+      0.0,
+      1.0,
+      1.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      0.0
+    ],
+    [
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      1.0,
+      0.0,
+      1.0,
+      1.0
+    ],
+    [
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    [
+      0.0,
+      1.0,
+      1.0,
+      1.0,
+      0.0
+    ],
+    [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      1.0,
+      0.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    [
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    [
+      0.0,
+      1.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "seed_policy": "numpy.random.seed before KernelExplainer and shap_values",
+  "warnings": []
+}

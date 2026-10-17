@@ -1,0 +1,18 @@
+{
+  "timestamp": "2026-10-06T11:42:10.451452+07:00",
+  "row_id": 287,
+  "representation": "continuous",
+  "fit_seed": 303,
+  "evaluation_seed": 1303,
+  "fit_rows": 2000,
+  "evaluation_rows": 5000,
+  "fit_raw_sha256": "e652a61a4d09ee02b1d9ca58e0f38463afbb43833d75a76334818220e0fd31b5",
+  "eval_raw_sha256": "7b48d381485088011616656d9cf459a3332ecfb2b9d650162ab2d704b6328532",
+  "forced_original_removed_from_evaluation": true,
+  "generation_seconds": 0.0027295000036247075,
+  "prediction_seconds_shared_across_widths": 0.04330649999610614,
+  "predict_calls": 2,
+  "predict_rows": 7000,
+  "fit_age_outside_train_fraction": 0.0355,
+  "eval_age_outside_train_fraction": 0.0436
+}

@@ -1,0 +1,4 @@
+size,n_cases,median_case_mean_l1,median_case_mean_linf,median_case_mean_jaccard,mean_case_sign_flips
+20,10,0.0477639760355422,0.029272059557654807,0.8,0.52
+100,10,0.02285295720106484,0.01334143153646082,0.9,0.52
+478,10,0.0,0.0,1.0,0.0

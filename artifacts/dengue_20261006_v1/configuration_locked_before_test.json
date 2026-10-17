@@ -1,0 +1,64 @@
+{
+  "locked_at": "2026-10-06T10:47:30.261025+07:00",
+  "config_sha256": "f6c034a226a1766c5f2cb9719688df94c47c90e417baf7975c153e600278eff9",
+  "models": {
+    "LR": {
+      "sha256": "ad5dfce11091077814e9717b193d0222b5ba259ca0bbad994c466d3d62231291",
+      "classes": [
+        0,
+        1
+      ],
+      "positive_class_index": 1,
+      "trained_on": "train only",
+      "n_train": 478,
+      "selection": "fixed baseline specified before predictions; no tuning",
+      "parameters": {
+        "C": 1.0,
+        "solver": "lbfgs",
+        "max_iter": 2000,
+        "class_weight": null
+      },
+      "age_scaler_mean": [
+        54.93514644351465
+      ],
+      "age_scaler_scale": [
+        21.583495047173376
+      ]
+    },
+    "RF_seed11": {
+      "sha256": "9918f2f0670d62635fcb39197cdbfe26579ede306c9555d03a88af0df4adca89",
+      "classes": [
+        0,
+        1
+      ],
+      "positive_class_index": 1,
+      "trained_on": "train only",
+      "n_train": 478,
+      "selection": "fixed baseline specified before predictions; no tuning",
+      "parameters": {
+        "bootstrap": true,
+        "ccp_alpha": 0.0,
+        "class_weight": null,
+        "criterion": "gini",
+        "max_depth": 5,
+        "max_features": "sqrt",
+        "max_leaf_nodes": null,
+        "max_samples": null,
+        "min_impurity_decrease": 0.0,
+        "min_samples_leaf": 3,
+        "min_samples_split": 2,
+        "min_weight_fraction_leaf": 0.0,
+        "monotonic_cst": null,
+        "n_estimators": 200,
+        "n_jobs": 1,
+        "oob_score": false,
+        "random_state": 11,
+        "verbose": 0,
+        "warm_start": false
+      }
+    }
+  },
+  "case_ids_sha256": "a0abffcb5a89f7fad8b1b39ea055a6440a2d081fe1bd233e0fc3d3a455ac101b",
+  "background_ids_sha256": "399266436f664d0f18294519649de4f9d61d176fdfe3a4efd2ee3eb8f9926c1e",
+  "test_predictions_created": false
+}

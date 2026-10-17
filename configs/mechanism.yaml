@@ -1,0 +1,30 @@
+protocol: dengue-mechanism-v3-exploratory
+analysis_date_client: '2026-10-07'
+run_id: dengue_20261007_mechanism_v3
+parent_run: dengue_20261006_supp_v2
+baseline_run: dengue_20261006_v1
+protocol_file: report/mechanism_protocol.md
+data_path: data/raw/dengue.csv
+data_sha256: 07df6c01bce668b1b68e4be2e4f6266aedb545740280293ec96624e91177627e
+validation_ids: [287, 369, 401, 492, 494, 519, 545, 639, 707, 754]
+fit_seeds: [301, 302, 303]
+fit_budget: 2000
+eval_budget: 5000
+width_multiplier: 0.75
+fit_sampler: saved_v2_quartile
+shared_fit_weights: saved_quartile_distances_w0
+arms:
+  - quartile_ridge
+  - quartile_ols
+  - continuous_same_samples
+  - quartile_pairwise
+  - quartile_cell_mean
+ridge_alpha: 1.0
+ols_solver: numpy_weighted_lstsq
+unseen_cell_policy: weighted_fit_global_mean
+primary_evaluation: saved_v2_quartile_pool_and_weights
+secondary_evaluation: saved_v2_gaussian_pool_and_native_weights
+new_rf_training: false
+new_test_queries: false
+evaluation_outputs_previously_seen: true
+stop_after_fixed_arms: true

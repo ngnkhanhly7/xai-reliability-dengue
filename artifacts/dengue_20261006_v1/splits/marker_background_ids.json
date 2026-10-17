@@ -1,0 +1,58 @@
+{
+  "clinical_ids": [
+    6,
+    9,
+    140,
+    254,
+    331,
+    621,
+    710,
+    726,
+    735,
+    785
+  ],
+  "expanded_rows": 20,
+  "marker_values_per_clinical_row": [
+    0,
+    1
+  ],
+  "pool_rows": 956,
+  "generation": {
+    "R_train": {
+      "seed": 501,
+      "q_requested": 0.5,
+      "matching_actual": {
+        "overall": 0.4665271966527197,
+        "class0": 0.4797979797979798,
+        "class1": 0.4024390243902439
+      }
+    },
+    "R_validation": {
+      "seed": 502,
+      "q_requested": 0.5,
+      "matching_actual": {
+        "overall": 0.51875,
+        "class0": 0.5151515151515151,
+        "class1": 0.5357142857142857
+      }
+    },
+    "B_train": {
+      "seed": 503,
+      "q_requested": 0.95,
+      "matching_actual": {
+        "overall": 0.9435146443514645,
+        "class0": 0.9494949494949495,
+        "class1": 0.9146341463414634
+      }
+    },
+    "B_validation": {
+      "seed": 504,
+      "q_requested": 0.95,
+      "matching_actual": {
+        "overall": 0.96875,
+        "class0": 0.9772727272727273,
+        "class1": 0.9285714285714286
+      }
+    }
+  }
+}

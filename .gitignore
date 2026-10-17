@@ -1,0 +1,8 @@
+.venv/
+.wheelhouse/
+__pycache__/
+*.pyc
+
+# Local only: not part of the public repository
+_archive/
+paper/

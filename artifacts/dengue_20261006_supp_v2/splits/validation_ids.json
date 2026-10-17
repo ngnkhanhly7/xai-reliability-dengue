@@ -1,0 +1,19 @@
+{
+  "row_ids": [
+    287,
+    369,
+    401,
+    492,
+    494,
+    519,
+    545,
+    639,
+    707,
+    754
+  ],
+  "split": "validation",
+  "seed": 1101,
+  "per_class": 5,
+  "selected_at": "2026-10-06T11:41:55.947310+07:00",
+  "test_v1_already_seen": true
+}

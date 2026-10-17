@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "verified_at_machine_clock": "2026-10-07T04:11:09.690310+07:00",
+  "analysis_date_client": "2026-10-07",
+  "fits": 150,
+  "validation_cases": 10,
+  "test_queries": 0,
+  "rf_refits": 0,
+  "previous_files_unchanged": 949,
+  "shared_fit_points_targets_weights": true,
+  "common_evaluation_points_weights": true,
+  "evaluation_pools_previously_seen": true,
+  "baseline_coefficient_max_error": 0.0,
+  "baseline_heldout_rmse_max_error": 0.0,
+  "ols_sklearn_prediction_max_error": 2.2898349882893854e-15,
+  "mse_identity_max_error": 7.155734338404328e-17,
+  "fresh_refit_prediction_errors": {
+    "quartile_ridge": 0.0,
+    "quartile_ols": 0.0,
+    "continuous_same_samples": 0.0,
+    "quartile_pairwise": 0.0,
+    "quartile_cell_mean": 0.0
+  },
+  "cell_mean_min_cells": 32,
+  "cell_mean_max_unseen_eval_fraction": 0.0,
+  "warnings_count": 0
+}

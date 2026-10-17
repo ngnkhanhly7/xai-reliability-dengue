@@ -1,0 +1,7 @@
+model_id,metric,lower95,upper95,repeats,seed,unit
+LR,auroc,0.6838440205627706,0.8709686147186146,1000,701,stratified test row; conditional on fixed models/split
+LR,ap,0.3582802338083659,0.6865085175183419,1000,701,stratified test row; conditional on fixed models/split
+RF_seed11,auroc,0.656919642857143,0.8474465638528138,1000,701,stratified test row; conditional on fixed models/split
+RF_seed11,ap,0.31025490602332245,0.6191515872573946,1000,701,stratified test row; conditional on fixed models/split
+RF_seed11_minus_LR,auroc,-0.08172348484848486,0.04424039502164502,1000,701,paired stratified test row
+RF_seed11_minus_LR,ap,-0.17388399125600407,0.07293016714747227,1000,701,paired stratified test row

@@ -1,0 +1,37 @@
+protocol: dengue-replication-v4-exploratory
+protocol_file: report/replication_protocol.md
+run_id: dengue_20261018_replication_v4
+baseline_run: dengue_20261006_v1
+supplementary_run: dengue_20261006_supp_v2
+mechanism_run: dengue_20261007_mechanism_v3
+data_path: data/raw/dengue.csv
+data_sha256: 07df6c01bce668b1b68e4be2e4f6266aedb545740280293ec96624e91177627e
+split_seeds: [42, 2027, 2028, 2029, 2030, 2031]
+test_fraction: 0.2
+validation_fraction_of_remainder: 0.25
+models:
+  RF:
+    n_estimators: 200
+    max_depth: 5
+    min_samples_leaf: 3
+    max_features: sqrt
+    class_weight: null
+    random_state: 11
+    n_jobs: 1
+  GBM:
+    n_estimators: 200
+    learning_rate: 0.05
+    max_depth: 2
+    min_samples_leaf: 3
+    random_state: 11
+validation_seed: 1101
+validation_per_class: 5
+fit_seeds: [301, 302, 303]
+eval_seed_offset: 1000
+fit_budget: 2000
+eval_budget: 5000
+width_multiplier: 0.75
+ridge_alpha: 1.0
+background_seeds: [201, 202, 203, 204, 205]
+background_extension_seed_offset: 10000
+audit_age_window_years: 5

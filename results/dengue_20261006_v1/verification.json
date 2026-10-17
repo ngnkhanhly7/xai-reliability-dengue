@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "rerun_row_id": 19,
+  "lime_rerun_max_absolute_difference": 0.0,
+  "shap_rerun_max_absolute_difference": 0.0,
+  "exact_max_absolute_error": 3.3306690738754696e-16,
+  "split_disjoint": true,
+  "ids_selected_before_predictions": true,
+  "selected_ids_unchanged": true,
+  "frozen_models_unchanged": true,
+  "main_feature_rows": 200,
+  "cached_explanations": 311,
+  "all_main_shap_full_enumeration": true,
+  "source_documents_unchanged": true,
+  "report_local_links_exist": true
+}

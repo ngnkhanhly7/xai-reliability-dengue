@@ -1,0 +1,127 @@
+{
+  "protocol": "dengue-experiments-v1",
+  "protocol_file": "ke-hoach-thuc-nghiem-lime-shap-dengue.md",
+  "data": {
+    "path": "data/raw/dengue.csv",
+    "source_path": "research/nguon/dengue_data_Final.csv",
+    "sha256": "07df6c01bce668b1b68e4be2e4f6266aedb545740280293ec96624e91177627e",
+    "features": [
+      "age",
+      "sex",
+      "NS1",
+      "IgM",
+      "IgG"
+    ],
+    "target": "Severity"
+  },
+  "split": {
+    "seed": 42,
+    "test_fraction": 0.2,
+    "validation_fraction_of_remainder": 0.25
+  },
+  "selection": {
+    "main_seed": 101,
+    "main_per_class": 10,
+    "stability_seed": 102,
+    "stability_per_class": 5,
+    "pilot_seed": 103,
+    "pilot_class_counts": [
+      3,
+      2
+    ],
+    "background_seeds": [
+      201,
+      202,
+      203
+    ],
+    "background_rows": 20
+  },
+  "model": {
+    "lr": {
+      "C": 1.0,
+      "solver": "lbfgs",
+      "max_iter": 2000,
+      "class_weight": null
+    },
+    "rf": {
+      "n_estimators": 200,
+      "max_depth": 5,
+      "min_samples_leaf": 3,
+      "max_features": "sqrt",
+      "class_weight": null,
+      "random_state": 11,
+      "n_jobs": 1
+    },
+    "tune": false,
+    "additional_rf_seeds": [
+      22,
+      33
+    ]
+  },
+  "explain": {
+    "lime": {
+      "seeds": [
+        301,
+        302,
+        303,
+        304,
+        305
+      ],
+      "budgets": [
+        100,
+        500,
+        2000
+      ],
+      "main_budget": 2000,
+      "width_multiplier": 0.75,
+      "categorical_indices": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "discretizer": "quartile",
+      "feature_selection": "none",
+      "ridge_alpha": 1.0
+    },
+    "shap": {
+      "main_budget": 32,
+      "main_seed": 301,
+      "link": "identity",
+      "l1_reg": 0.0,
+      "small_budgets": [
+        8,
+        16,
+        32
+      ],
+      "small_budget_seeds": [
+        301,
+        302,
+        303
+      ]
+    },
+    "epsilon": 1e-06,
+    "exact_tolerance": 1e-06
+  },
+  "uncertainty": {
+    "bootstrap_replicates": 1000,
+    "bootstrap_seed": 701
+  },
+  "marker": {
+    "enabled": true,
+    "rng_seeds": {
+      "R_train": 501,
+      "R_validation": 502,
+      "B_train": 503,
+      "B_validation": 504,
+      "test_q095": 505,
+      "test_q050": 506,
+      "test_q005": 507,
+      "background": 508
+    },
+    "q_correlated": 0.95,
+    "shap_background_clinical_rows": 10,
+    "shap_budget": 64,
+    "zero_tolerance": 1e-12
+  }
+}

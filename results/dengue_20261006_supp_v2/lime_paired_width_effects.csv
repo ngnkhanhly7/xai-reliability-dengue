@@ -1,0 +1,7 @@
+width_factor,metric,n_cases,median_paired_delta_vs_w0,cases_lower_error,cases_higher_error
+0.5,point_error,10,-0.010325024995745401,8,2
+0.5,heldout_common_quartile_rmse,10,0.0003714848480483035,0,10
+0.5,heldout_common_continuous_rmse,10,0.00012080574224394847,4,6
+2.0,point_error,10,0.002422383694884067,2,8
+2.0,heldout_common_quartile_rmse,10,1.542100694539028e-05,2,8
+2.0,heldout_common_continuous_rmse,10,2.6113299854899075e-05,3,7

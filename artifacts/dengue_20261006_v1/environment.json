@@ -1,0 +1,62 @@
+{
+  "python": "3.13.15 (tags/v3.13.15:4061bc4, Aug  5 2026, 13:05:39) [MSC v.1944 64 bit (AMD64)]",
+  "executable": "C:\\Users\\lyntk22\\Downloads\\yt\\.venv\\Scripts\\python.exe",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "processor": "Intel64 Family 6 Model 186 Stepping 3, GenuineIntel",
+  "logical_cpus": 12,
+  "physical_cpus": 10,
+  "ram_gib": 15.578388214111328,
+  "rf_n_jobs": 1,
+  "packages": {
+    "numpy": "2.2.6",
+    "pandas": "2.2.3",
+    "scipy": "1.15.3",
+    "scikit-learn": "1.6.1",
+    "lime": "0.2.0.1",
+    "shap": "0.48.0",
+    "matplotlib": "3.10.3",
+    "joblib": "1.5.1",
+    "PyYAML": "6.0.2",
+    "psutil": "7.0.0",
+    "threadpoolctl": "3.6.0"
+  },
+  "threadpools": [
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "prefix": "libscipy_openblas",
+      "filepath": "C:\\Users\\lyntk22\\Downloads\\yt\\.venv\\Lib\\site-packages\\numpy.libs\\libscipy_openblas64_-13e2df515630b4a41f92893938845698.dll",
+      "version": "0.3.29",
+      "threading_layer": "pthreads",
+      "architecture": "Haswell"
+    },
+    {
+      "user_api": "openmp",
+      "internal_api": "openmp",
+      "num_threads": 1,
+      "prefix": "vcomp",
+      "filepath": "C:\\Users\\lyntk22\\Downloads\\yt\\.venv\\Lib\\site-packages\\sklearn\\.libs\\vcomp140.dll",
+      "version": null
+    },
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "prefix": "libscipy_openblas",
+      "filepath": "C:\\Users\\lyntk22\\Downloads\\yt\\.venv\\Lib\\site-packages\\scipy.libs\\libscipy_openblas-f07f5a5d207a3a47104dca54d6d0c86a.dll",
+      "version": "0.3.28",
+      "threading_layer": "pthreads",
+      "architecture": "Haswell"
+    }
+  ],
+  "installed_source_hashes": {
+    "lime.lime_tabular": "4d9c5514fcf38b3652b5d43afd1696441cbc0189f0785d27a8d59b588ce540f7",
+    "lime.lime_base": "2387f09404982d6bdccb23007f2d78c384c2b79e4a39fffb27b4748058121a63",
+    "shap.explainers._kernel": "87ac0b9d50675073b08b3b2a5af7861f8b03712d8b0551c312aa76b0397d75e7"
+  },
+  "input_documents": {
+    "bao-cao-research-lime-shap-dengue.md": "e7ceae7d741e1f77641ff6806aad84aeb046c36524d6222e8bd806bdb824f9d8",
+    "ke-hoach-thuc-nghiem-lime-shap-dengue.md": "853f691449dffad6c1ea281ebcebf10a50fe462f52220c231b912fc7d87fb340"
+  }
+}

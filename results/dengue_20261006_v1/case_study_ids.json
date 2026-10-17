@@ -1,0 +1,17 @@
+{
+  "roles": {
+    "38": [
+      "TP"
+    ],
+    "19": [
+      "FN"
+    ],
+    "308": [
+      "FP"
+    ],
+    "97": [
+      "lowest stability at N=2000"
+    ]
+  },
+  "selection_rule": "smallest row_id in TP/FN/FP within main20, plus lowest mean seed-pair Jaccard at N2000; ties row_id; repeated case combines roles"
+}

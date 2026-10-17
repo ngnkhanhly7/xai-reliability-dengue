@@ -1,0 +1,230 @@
+{
+  "run_id": "dengue_20261006_v1",
+  "started_at": "2026-10-06T10:47:29.288879+07:00",
+  "timezone": "UTC+07:00",
+  "config_sha256": "f6c034a226a1766c5f2cb9719688df94c47c90e417baf7975c153e600278eff9",
+  "stages": {
+    "E0": {
+      "status": "complete",
+      "timestamp": "2026-10-06T10:47:29.575894+07:00",
+      "details": {
+        "counts": [
+          {
+            "split": "train",
+            "n": 478,
+            "nonsevere": 396,
+            "severe": 82,
+            "severe_prevalence": 0.17154811715481172,
+            "unique_profiles": 314
+          },
+          {
+            "split": "validation",
+            "n": 160,
+            "nonsevere": 132,
+            "severe": 28,
+            "severe_prevalence": 0.175,
+            "unique_profiles": 133
+          },
+          {
+            "split": "test",
+            "n": 160,
+            "nonsevere": 132,
+            "severe": 28,
+            "severe_prevalence": 0.175,
+            "unique_profiles": 133
+          }
+        ],
+        "profile_overlap": {
+          "train_validation": 70,
+          "train_test": 72,
+          "validation_test": 28
+        }
+      }
+    },
+    "E1": {
+      "status": "complete",
+      "timestamp": "2026-10-06T10:47:29.812309+07:00",
+      "details": {
+        "validation_metrics": [
+          {
+            "model_id": "LR",
+            "split": "validation",
+            "n": 160,
+            "severe": 28,
+            "prevalence": 0.175,
+            "threshold": 0.5,
+            "auroc": 0.828327922077922,
+            "ap": 0.5490210415548084,
+            "balanced_accuracy": 0.5497835497835498,
+            "sensitivity": 0.10714285714285714,
+            "specificity": 0.9924242424242424,
+            "precision": 0.75,
+            "brier": 0.11223789558142569,
+            "TP": 3,
+            "FN": 25,
+            "FP": 1,
+            "TN": 131
+          },
+          {
+            "model_id": "RF_seed11",
+            "split": "validation",
+            "n": 160,
+            "severe": 28,
+            "prevalence": 0.175,
+            "threshold": 0.5,
+            "auroc": 0.8284632034632035,
+            "ap": 0.5968928173498342,
+            "balanced_accuracy": 0.6455627705627706,
+            "sensitivity": 0.32142857142857145,
+            "specificity": 0.9696969696969697,
+            "precision": 0.6923076923076923,
+            "brier": 0.10320893383753402,
+            "TP": 9,
+            "FN": 19,
+            "FP": 4,
+            "TN": 128
+          }
+        ],
+        "tuned": false
+      }
+    },
+    "E2": {
+      "status": "complete",
+      "timestamp": "2026-10-06T10:47:30.258810+07:00",
+      "details": {
+        "max_exact_error": 3.3306690738754696e-16,
+        "validation_ids": [
+          395,
+          425,
+          582,
+          599,
+          783
+        ]
+      }
+    },
+    "E3": {
+      "status": "complete",
+      "timestamp": "2026-10-06T10:47:39.786271+07:00",
+      "details": {
+        "test_metrics": [
+          {
+            "model_id": "LR",
+            "split": "test",
+            "n": 160,
+            "severe": 28,
+            "prevalence": 0.175,
+            "threshold": 0.5,
+            "auroc": 0.7803030303030303,
+            "ap": 0.49740300827429795,
+            "balanced_accuracy": 0.560064935064935,
+            "sensitivity": 0.14285714285714285,
+            "specificity": 0.9772727272727273,
+            "precision": 0.5714285714285714,
+            "brier": 0.12062570841062455,
+            "TP": 4,
+            "FN": 24,
+            "FP": 3,
+            "TN": 129
+          },
+          {
+            "model_id": "RF_seed11",
+            "split": "test",
+            "n": 160,
+            "severe": 28,
+            "prevalence": 0.175,
+            "threshold": 0.5,
+            "auroc": 0.7560876623376624,
+            "ap": 0.4408283360282264,
+            "balanced_accuracy": 0.604978354978355,
+            "sensitivity": 0.2857142857142857,
+            "specificity": 0.9242424242424242,
+            "precision": 0.4444444444444444,
+            "brier": 0.13115053499823318,
+            "TP": 8,
+            "FN": 20,
+            "FP": 10,
+            "TN": 122
+          }
+        ],
+        "n_cases": 20
+      }
+    },
+    "E4": {
+      "status": "complete",
+      "timestamp": "2026-10-06T10:47:43.948670+07:00",
+      "details": {
+        "lime_design_runs": 150,
+        "shap_background_design_runs": 30,
+        "cases": 10
+      }
+    },
+    "E4c": {
+      "status": "complete",
+      "timestamp": "2026-10-06T10:47:44.706991+07:00",
+      "details": {
+        "runs_recorded": 31,
+        "stopped_budgets": [
+          8
+        ]
+      }
+    },
+    "E5": {
+      "status": "complete",
+      "timestamp": "2026-10-06T10:47:48.417338+07:00",
+      "details": {
+        "marker_explanation_design_runs": 60,
+        "exact_validation_runs": 15,
+        "same_clinical_test_rows_across_environments": true
+      }
+    },
+    "report": {
+      "status": "complete",
+      "timestamp": "2026-10-06T10:54:07.776583+07:00",
+      "details": {
+        "path": "bao-cao-thuc-nghiem-lime-shap-dengue.md",
+        "case_ids": [
+          38,
+          19,
+          308,
+          97
+        ]
+      }
+    },
+    "verification": {
+      "status": "complete",
+      "timestamp": "2026-10-06T10:53:34.870037+07:00",
+      "details": {
+        "passed": true,
+        "rerun_row_id": 19,
+        "lime_rerun_max_absolute_difference": 0.0,
+        "shap_rerun_max_absolute_difference": 0.0,
+        "exact_max_absolute_error": 3.3306690738754696e-16,
+        "split_disjoint": true,
+        "ids_selected_before_predictions": true,
+        "selected_ids_unchanged": true,
+        "frozen_models_unchanged": true,
+        "main_feature_rows": 200,
+        "cached_explanations": 311,
+        "all_main_shap_full_enumeration": true,
+        "source_documents_unchanged": true,
+        "report_local_links_exist": true
+      }
+    }
+  },
+  "status": "complete",
+  "updated_at": "2026-10-06T10:54:07.779774+07:00",
+  "implementation_sha256": {
+    "src\\common.py": "5c37bec7391def14dd6eca4a5fe255d9982d6209e90d1409874d45e3dc393575",
+    "src\\evaluate.py": "610276850e964f0d15aa1dcd2f746cc3dd70916e2a29152a4e882b9b42e5c208",
+    "src\\exact_shapley.py": "1176f2aa52c7ffb8f8e42ef9d989b3012c6d916a26e4852cc2cda9aaef4ccea9",
+    "src\\explain.py": "a0f4f2bc727bfe34e1d84a8b336b567eea2c1af67afbf062b5c83d456f2f1eeb",
+    "src\\marker_benchmark.py": "40da8ca5da661ab95afba9f192da4af602c0570a047128ebb8fc68e1259ebe3d",
+    "src\\prepare_data.py": "c4d1df172d949e5132ee8c126aabcbae83677cabe039f2a53959f7361bc83881",
+    "src\\reporting.py": "a8c37b6db43d6117f3abd03bb357484b2f209a3a8e740d67e4a7d99a5f0bb92f",
+    "src\\run_experiments.py": "dab5a04d60ef1de8030763a78c950484099a4626fbdaae3d2be9cfd2da82e250",
+    "src\\train.py": "ac712fde9d5054ab7e767fb4f87640e1fcb94e67a5d177d4938d833ec784b13e",
+    "src\\verify.py": "295c6467db5ceb8a5c7f23b5829c9fef474aa776bc606ddf1f0ad8dd8400f9f6",
+    "src\\__init__.py": "0578dd86784d09351bb09421de247563feeaa6b0cf67c68a166cd2c6a9db9e1d"
+  },
+  "test_first_opened_at": "2026-10-06T10:47:36.941869+07:00"
+}

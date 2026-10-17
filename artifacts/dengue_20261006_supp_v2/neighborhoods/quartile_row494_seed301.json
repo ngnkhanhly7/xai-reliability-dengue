@@ -1,0 +1,18 @@
+{
+  "timestamp": "2026-10-06T11:42:12.499598+07:00",
+  "row_id": 494,
+  "representation": "quartile",
+  "fit_seed": 301,
+  "evaluation_seed": 1301,
+  "fit_rows": 2000,
+  "evaluation_rows": 5000,
+  "fit_raw_sha256": "8f855204e33fd20a139908dbe7dbcb386ac7fe7613b87a1f9dda3a4beae9914d",
+  "eval_raw_sha256": "e78ed2eec491f3f8a8b7e28d5410697433a1462d6679a1e8420aa3e8a79ea7c1",
+  "forced_original_removed_from_evaluation": true,
+  "generation_seconds": 0.006198599992785603,
+  "prediction_seconds_shared_across_widths": 0.04679610001039691,
+  "predict_calls": 2,
+  "predict_rows": 7000,
+  "fit_age_outside_train_fraction": 0.0,
+  "eval_age_outside_train_fraction": 0.0
+}
